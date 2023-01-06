@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+} 
+.btn-primary{
+    color: rgb(255, 255, 255);
+    background-color:orangered;
+    border: 1px solid salmon;
+    font-size: 18px;
+    border-radius: 10%;
+    padding: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+
+/* Header section style */
+header{
+    background-image: url(./images/donation9.jpg);
+    height: 694px;
+    width: 1510px;
+    background-size: cover;
+}
+.header-section{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+}
+.header-title{
+    font-size: 70px;
+    font-weight: 800px;
+    margin-bottom: 15px;
+    color: rgb(255, 255, 255);
+}
+.header-description{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+}
+
+/* Main section style */
+.donate-now{
+    margin: 0px 100px;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+.section-title{
+    font-size: 40px;
+    font-weight: 800px;
+}
+.section-description{
+    color: #757575;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.donate{
+    text-align: center;
+}
+
+.donate-amount{
+    display: flex;
+    margin-top: 50px ;
+}
+.amount{
+    margin-right:  50px;
+    background-color: rgb(215, 230, 230);
+    font-size: 40px;
+    padding: 30px;
+    border-radius: 5%;
+    cursor: pointer;
+    color: #757575;
+}
+.amount-200{
+    margin-right:  50px;
+    background-color: rgb(238, 170, 170);
+    font-size: 40px;
+    padding: 30px;
+    border-radius: 5%;
+    cursor: pointer;
+    border: 1px solid rgb(224, 78, 78);
+    color: rgb(224, 78, 78);
+}
+.other-amount{
+    margin-top: 100px;
+}
+.other-amount-title{
+    border-bottom: 1px solid #bbbbbb;
+    color: #bbbbbb;
+    margin-bottom: 10px;
+}
+/* donate plan */
+.donate-plan{
+    text-align: center;
+}
+.section-description{
+    margin-top: -100px;
+    padding: 150px 150px;
+    text-align: center;
+}
+.donate-description{
+    display: flex;
+    margin-left: 80px;
+}
+.donate-system{
+    background-color: #bbbbbb;
+    margin-right:  50px;
+    padding: 30px;
+    border-radius: 5%;
+    cursor: pointer;
+    color: #757575;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+
+/* donation section style */
+.donation-description {
+    display: flex;
+    margin-bottom: 70px;
+}
+.donation-section{
+    margin: 90px 180px;
+}
+.donation-part{
+    margin-top: 70px;
+}
+.donation-description img{
+    height: 450px;
+    width: 500px;
+}
+.donation-part1{
+    margin-right: 30px;
+
+}
+.donation-part2{
+    margin-left: 30px;
+}
+.donation-descript{
+    color: #757575;
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+/* extra */
+.extra-section{
+    text-align: center;
+    margin: 10px 180px;
+}
+
+/* Email section */
+.email-section{
+    text-align: center;
+    background-color: #ee8e8e;
+    margin: 80px 200px;
+}
+.email{
+    font-size: 16px;
+    padding: 15px 15px;
+    margin: 80px -5px;
+}
+/* footer section style */
+
+.footer-section{
+    background-color: rgb(6, 5, 46);
+    text-align: center;
+    padding: 40px;
+}
+.footer-title{
+    color: #ee8e8e;
+    font-style:initial;
+    font-size: 30px;
+}
+.footer-description{
+    color: #757575;
+    margin-top: 15px;
+}
